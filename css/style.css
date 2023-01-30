@@ -241,7 +241,9 @@ body{
     height: 100%;
 }
 
-
+.fw-500{
+    font-weight: 500;
+}
 
 /* general css */
 
