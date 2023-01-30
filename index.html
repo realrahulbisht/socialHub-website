@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SocialHub - Communicate all around the world</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <!-- header -->
+    <header class="main-header">
+        <nav class="primary-nav flex ">
+            <div class="nav-left flex ">
+                <div class="logo margin-inline-400">
+                    <img src="images/web/png/Color logo - no background.png">
+                </div>
+                <div class="nav-icons">
+                    <ul class="flex">
+                        <li>
+                            <a href="#">
+                                <img src="images/video.png" alt="" class="margin-inline-100">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/inbox.png" alt="" class="margin-inline-100">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/notification.png" alt="" class="margin-inline-100">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="nav-right flex">
+                <div class="search flex margin-inline-100">
+                    <img src="images/search.png" class="search-icon">
+                    <input type="text" placeholder="Search">
+                </div>
+                <div class="profile-pic online">
+                    <img id="profile-pic" src="images/profile-pic.jpg" class="round" alt="">
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- dropdown menu -->
+    <nav id="secondary-nav">
+        <div id="dark-btn" >
+            <span>
+
+            </span>
+        </div>
+
+        <div class="flex-start-gap-100  border-bottom padding-block-100">
+            <img class="round" style="width: 46px;height:46px;" src="./images/profile-pic.jpg" alt="">
+            <span>
+                <p class="fs-350">Rahul Bisht</p>
+                <a href="#" class="fs-280"> See your Profile</a>
+            </span>
+        </div>
+        <div class="flex-start-gap-100 margin-block-200 border-bottom padding-block-50">
+            <img class="round" style="width: 40px;height:40px;" src="./images/feedback.png" alt="">
+            <span>
+                <p>Give Feedback</p>
+                <a href="#" class="fs-280">Help us to improve the new design </a>
+            </span>
+        </div>
+
+        <div>
+            <ul>
+                <li class="flex-start-gap-100 margin-block-100  list-container">
+                    <img style="width: 34px;height:34px;" src="./images/setting.png" alt="">
+                    <span class="flex list-inner-container">
+                        <p>Setting & Privacy</p>
+                        <img style="width:8px;" src="./images/arrow.png" alt="">
+                    </span>
+
+                </li>
+                <li class="flex-start-gap-100 margin-block-100  list-container">
+                    <img style="width: 34px;height:34px;" src="./images/help.png" alt="">
+                    <span class="flex list-inner-container">
+                        <p>Help & Support</p>
+                        <img style="width:8px;" src="./images/arrow.png" alt="">
+                    </span>
+                </li>
+                <li class="flex-start-gap-100 margin-block-100  list-container">
+                    <img style="width: 34px;height:34px;" src="./images/display.png" alt="">
+                    <span class="flex list-inner-container">
+                        <p>Display & Accessibility</p>
+                        <img style="width:8px;" src="./images/arrow.png" alt="">
+                    </span>
+                </li>
+                <li class="flex-start-gap-100 margin-block-100  list-container">
+                    <img style="width: 34px;height:34px;" src="./images/logout.png" alt="">
+                    <span class="flex list-inner-container">
+                        <p>Logout</p>
+                        <img style="width:8px;" src="./images/arrow.png" alt="">
+                    </span>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- main -->
+    <main>
+        <!-- left section -->
+        <section class="section-left ">
+            <div class="section-left-container">
+                <div class="features">
+                    <ul class="padding-block-50">
+                        <li class="margin-block-100">
+                            <a href="#" class="flex features-container">
+                                <div class="features-img-container">
+                                    <img src="images/news.png" alt="">
+                                </div>
+                                <div class="features-para-container">
+                                    <p>Latest News</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="margin-block-300">
+                            <a href="#" class="flex features-container">
+                                <div class="features-img-container">
+                                    <img src="images/friends.png" alt="">
+                                </div>
+                                <div class="features-para-container">
+                                    <p>Friends</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="margin-block-300">
+                            <a href="#" class="flex features-container">
+                                <div class="features-img-container">
+                                    <img src="images/group.png" alt="">
+                                </div>
+                                <div class="features-para-container">
+                                    <p>Group</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="margin-block-300">
+                            <a href="#" class="flex features-container">
+                                <div class="features-img-container">
+                                    <img src="images/marketplace.png" alt="">
+                                </div>
+                                <div class="features-para-container">
+                                    <p>Marketplace</p>
+                                </div>
+
+                            </a>
+                        </li>
+                        <li class="margin-block-300">
+                            <a href="#" class="flex features-container">
+                                <div class="features-img-container">
+                                    <img src="images/watch.png" alt="">
+                                </div>
+                                <div class="features-para-container">
+                                    <p>Watch</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="margin-block-300">
+                            <a href="#">See More</a>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="groups">
+                    <p class="padding-block-200 fs-400 heading">Your Groups</p>
+                    <ul>
+                        <li class="margin-block-200">
+                            <a href="#" class="flex-start-gap-200">
+                                <div>
+                                    <img src="images/shortcut-1.png" alt="">
+                                </div>
+                                <div class="groups-para-container">
+                                    <p>Web Designers</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="margin-block-200">
+                            <a href="#" class="flex-start-gap-200">
+                                <div>
+                                    <img src="images/shortcut-2.png" alt="">
+                                </div>
+                                <div class="groups-para-container">
+                                    <p>Web Developers Group</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="margin-block-200">
+                            <a href="#" class="flex-start-gap-200">
+                                <div>
+                                    <img src="images/shortcut-3.png" alt="">
+                                </div>
+                                <div class="groups-para-container">
+                                    <p>Web Designers Network</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="margin-block-200">
+                            <a href="#" class="flex-start-gap-200">
+                                <div>
+                                    <img src="images/shortcut-4.png" alt="">
+                                </div>
+                                <div class="groups-para-container">
+                                    <p>Full Stack Developers</p>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+
+        <!--------- section main------------>
+        <section class="section-main ">
+            <div class="section-main-top text-center margin-top-50 flex">
+                <div class="story-container">
+                    <img id="add" class="text-center" src="images/upload.png">
+                    <p>Post Story</p>
+                </div>
+                <div class="story-container">
+                    <img class="round" id="status-profile" src="images/member-1.png" alt="">
+                    <p>Alison</p>
+                </div>
+                <div class="story-container">
+                    <img class="round" id="status-profile" src="images/member-2.png" alt="">
+                    <p>Jackson</p>
+                </div>
+                <div class="story-container">
+                    <img class="round" id="status-profile" src="images/member-3.png" alt="">
+                    <p>Samona</p>
+                </div>
+                <div class="story-container">
+                    <img class="round" id="status-profile" src="images/member-4.png" alt="">
+                    <p>John leo</p>
+                </div>
+            </div>
+
+            <!--------- section main mid ------------>
+            <div class="section-main-mid margin-block-300">
+                <div class="main-container">
+                    <div class="flex-start-gap-100 padding-block-200">
+                        <img class="round" src="images/profile-pic.jpg" alt="">
+                        <div>
+                            <p class="fs-400">Rahul Bisht</p>
+                            <span class="flex-start-gap-30 fs-280">
+                                <p>Public</p>
+                                <img id="more" style="width: 6px; margin-top: 1px;" src="images/arrow.png" alt="">
+                            </span>
+                        </div>
+                    </div>
+                    <input style="width:100%;padding-bottom:60px;" type="text" id="input"
+                        placeholder="What's on your mind, Rahul?">
+                    <div class="flex section-main-mid-icons padding-block-200">
+                        <span class="flex-start-gap-80">
+                            <img style="width: 26px;" src="images/live-video.png" alt="">
+                            <p>Live Video</p>
+                        </span>
+                        <span class="flex-start-gap-80">
+                            <img style="width: 26px;" src="images/photo.png" alt="">
+                            <p>Photo/Video</p>
+                        </span>
+                        <span class="flex-start-gap-80">
+                            <img style="width: 26px;" src="images/feeling.png" alt="">
+                            <p>Feeling/Activity</p>
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <!--------- section main bottom  ------------>
+            <div class="section-main-bottom padding-block-50">
+
+                <!-- feed content 1 -->
+                <div class="main-container">
+                    <div class="feed-top flex margin-block-100">
+                        <div class="flex-start-gap-100">
+                            <img class="round" src="./images/srk.jpg" alt="">
+                            <span>
+                                <span class="flex-start-gap-30">
+                                    <a href="#" class="fs-400">Shah Rukh Khan </a>
+                                    <img id="blue-tick" src="./images/blue-tick.png">
+                                </span>
+                                <p class="fs-280">January 15 2023, 12:12 pm</p>
+                            </span>
+                        </div>
+                        <img id="more" src="images/more.png" alt="">
+                    </div>
+                    <div class="feed-bottom">
+                        <p class="margin-block-50  fs-400">
+                            <a href="#">#Pathaan</a> is finally here... milte hai bade parde par!
+                            Book your tickets now- <a href="#">https://m.paytm.me/pathaan</a> | <a
+                                href="#">https://bookmy.show/Pathaan</a>
+                            Celebrate <a href="#">#Pathaan</a> with <a href="">#YRF50</a> only at a big screen near you,
+                            in Hindi, Tamil and Telugu.
+                            <a href="">Deepika Padukone </a> | <a href="#">John Abraham</a> | <a
+                                href="#">#SiddharthAnand</a> | <a href="#">YRF - Yash Raj Films</a>
+                        </p>
+                        <img id="feed-image" src="images/pathaan.jpg" alt="">
+                    </div>
+                    <div class="like-section flex padding-block-100 padding-inline-50">
+                        <div class="flex-start-gap-600 margin-top-50">
+                            <div class="flex-start-gap-50 a">
+                                <img style="width: 26px;" id="like" src="images/like.png" alt="">
+                                <p style="margin-top: 2px;">200K</p>
+                            </div>
+                            <div class="flex-start-gap-50">
+                                <img style="width: 26px;" src="images/comments.png" alt="">
+                                <p>2.5K</p>
+                            </div>
+                            <div class="flex-start-gap-50">
+                                <img style="width: 26px;" src="images/share.png" alt="">
+                                <p>2000</p>
+                            </div>
+                        </div>
+                        <div>
+                            <span class="flex-start-gap-50">
+                                <img style="width: 22px;" src="/images/profile-pic.jpg" class="round" alt="">
+                                <img style="width: 10px;" id="more" src="/images/arrow.png" alt="">
+                            </span>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- feed content 2 -->
+                <div class="main-container">
+                    <div class="feed-top flex margin-block-100">
+                        <div class="flex-start-gap-100">
+                            <img class="round" src="images/member-3.png" alt="">
+                            <span>
+                                <span class="flex-start-gap-30">
+                                    <a href="#" class="fs-400" id="feed-name">Scarlett Angela</a>
+                                </span>
+                                <p class="fs-280">January 2 2023, 2:05 pm</p>
+                            </span>
+                        </div>
+                        <img id="more" src="images/more.png" alt="">
+                    </div>
+                    <div class="feed-bottom">
+                        <p class="margin-block-50 fs-400">
+                            <span style="display: block;">Are you guys having fun, on sundays?</span>
+                            <a href="#">#laptop</a>
+                            <a href="#">#mood</a>
+                            <a href="#">#develpoment</a>
+                        </p>
+                        <img id="feed-image" src="images/feed-image-4.png" alt="">
+                    </div>
+                    <div class="like-section flex padding-block-100 padding-inline-50">
+                        <div class="flex-start-gap-600 margin-top-50">
+                            <div class="flex-start-gap-50 a">
+                                <img style="width: 26px;" src="images/like.png" alt="">
+                                <p id="like" style="margin-top: 2px;">350</p>
+                            </div>
+                            <div class="flex-start-gap-50">
+                                <img style="width: 26px;" src="images/comments.png" alt="">
+                                <p>80</p>
+                            </div>
+                            <div class="flex-start-gap-50">
+                                <img style="width: 26px;" src="images/share.png" alt="">
+                                <p>3</p>
+                            </div>
+                        </div>
+                        <div>
+                            <span class="flex-start-gap-50">
+                                <img style="width: 22px;" src="/images/profile-pic.jpg" class="round" alt="">
+                                <img style="width: 10px;" id="more" src="/images/arrow.png" alt="">
+                            </span>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- feed content 3 -->
+                <div class="main-container ">
+                    <div class="feed-top flex margin-block-100">
+                        <div class="flex-start-gap-100">
+                            <img class="round" src="images/profile-pic.jpg" alt="">
+                            <span>
+                                <span class="flex-start-gap-30">
+                                    <a href="#" class="fs-400" id="feed-name">Rahul Bisht</a>
+                                </span>
+                                <p class="fs-280">January 15 2023, 10:10 am</p>
+                            </span>
+                        </div>
+                        <img id="more" src="images/more.png" alt="">
+                    </div>
+                    <div class="feed-bottom">
+                        <p class="margin-block-50  fs-400">
+                            <span style="display: block;">Learning with online friends is fun these days.
+                                Join our discord for discussion, if you are interested in learning in public!! (link in
+                                bio)
+                            </span>
+                            <a href="#">#webDevelopment</a>
+                            <a href="#">#LearningInPublic</a>
+                            <a href="#">#FrontendDevelopment</a>
+                        </p>
+                        <img id="feed-image" src="images/feed-image-1.png" alt="">
+                    </div>
+                    <div class="like-section flex padding-block-100 padding-inline-50">
+                        <div class="flex-start-gap-600 margin-top-50">
+                            <div class="flex-start-gap-50 a">
+                                <img id="like" style="width: 26px;" src="images/like.png" alt="">
+                                <p style="margin-top: 2px;">100</p>
+                            </div>
+                            <div class="flex-start-gap-50">
+                                <img style="width: 26px;" src="images/comments.png" alt="">
+                                <p>50</p>
+                            </div>
+                            <div class="flex-start-gap-50">
+                                <img style="width: 26px;" src="images/share.png" alt="">
+                                <p>7</p>
+                            </div>
+                        </div>
+                        <div>
+                            <span class="flex-start-gap-50">
+                                <img style="width: 22px;" src="/images/profile-pic.jpg" class="round" alt="">
+                                <img style="width: 10px;" id="more" src="/images/arrow.png" alt="">
+                            </span>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- feed content 4 -->
+                <div class="main-container ">
+                    <div class="feed-top flex margin-block-100">
+                        <div class="flex-start-gap-100">
+                            <img class="round" src="images/profile-pic.jpg" alt="">
+                            <span>
+                                <span class="flex-start-gap-30">
+                                    <a href="#" class="fs-400" id="feed-name">Rahul Bisht</a>
+                                </span>
+                                <p class="fs-280">January 1 2023, 10:10 am</p>
+                            </span>
+                        </div>
+                        <img id="more" src="images/more.png" alt="">
+                    </div>
+                    <div class="feed-bottom">
+                        <p class="margin-block-50  fs-400">
+                            <span style="display: block;"> Hi, I am Rahul Bisht. I create website for business and help
+                                them grow.
+                            </span>
+                            <a href="#">#webDevelopment</a>
+                            <a href="#">#LearningInPublic</a>
+                            <a href="#">#FrontendDevelopment</a>
+                        </p>
+                        <video src="images/video.mp4" type="mp4/video" poster="images/thumbnail.jpg" controls></video>
+                    </div>
+                    <div class="like-section flex padding-block-100 padding-inline-50">
+                        <div class="flex-start-gap-600 margin-top-50">
+                            <div class="flex-start-gap-50 a">
+                                <img id="like" style="width: 26px;" src="images/like.png" alt="">
+                                <p style="margin-top: 2px;">443</p>
+                            </div>
+                            <div class="flex-start-gap-50">
+                                <img style="width: 26px;" src="images/comments.png" alt="">
+                                <p>58</p>
+                            </div>
+                            <div class="flex-start-gap-50">
+                                <img style="width: 26px;" src="images/share.png" alt="">
+                                <p>89</p>
+                            </div>
+                        </div>
+                        <div>
+                            <span class="flex-start-gap-50">
+                                <img style="width: 22px;" src="/images/profile-pic.jpg" class="round" alt="">
+                                <img style="width: 10px;" id="more" src="/images/arrow.png" alt="">
+                            </span>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="text-center padding-block-200">
+                    <button class="text-center btn">Load More</button>
+                </div>
+        </section>
+
+
+        <!-- right section -->
+        <section class="section-right">
+            <div class="section-right-container">
+                <div class="events ">
+                    <div class="flex margin-block-200">
+                        <p class="fs-400">Events</p>
+                        <a href="#" class="fs-280">See All</a>
+                    </div>
+                    <ul>
+                        <li class="flex">
+                            <div class="calender">
+                                <p class="text-center">18</p>
+                                <p class="text-center">March</p>
+                            </div>
+                            <div class="calender-info">
+                                <p class="fs-400">Social Media</p>
+                                <div class="flex">
+                                    <img src="images/location.png" alt="">
+                                    <p> Willson Tech Park</p>
+                                </div>
+                                <a href="#" class="fs-250">More Info</a>
+                            </div>
+                        </li>
+                        <li class="flex">
+                            <div class="calender">
+                                <p class="text-center">22</p>
+                                <p class="text-center">June</p>
+                            </div>
+                            <div class="calender-info">
+                                <p class="fs-400">Social Media</p>
+                                <div class="flex">
+                                    <img src="images/location.png" alt="">
+                                    <p>Willson Tech Park</p>
+                                </div>
+                                <a href="#" class="fs-250">More Info</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="ad">
+                    <div class="flex margin-block-200">
+                        <p class="fs-400">Advertisement</p>
+                        <a href="#" class="fs-280">Close</a>
+                    </div>
+                    <img src="images/advertisement.png" alt="">
+                </div>
+                <div class="conversation">
+                    <div class="flex margin-block-200">
+                        <p class="fs-400">Conversation</p>
+                        <a href="#" class="fs-280">Hide Chat</a>
+                    </div>
+                    <ul>
+                        <li class="flex-start-gap-200 margin-block-100 online-convo">
+                            <div class="online">
+                                <img class="round" src="images/member-1.png" alt="">
+                            </div>
+                            <p>Alison Mina</p>
+                        </li>
+                        <li class="flex-start-gap-200 margin-block-100 online-convo">
+                            <div class="online">
+                                <img class="round" src="images/member-2.png" alt="">
+                            </div>
+                            <p>Jackson Aston</p>
+                        </li>
+                        <li class="flex-start-gap-200 margin-top-200 online-convo">
+                            <div class="online">
+                                <img class="round" src="images/member-3.png" alt="">
+                            </div>
+                            <p>Samona Rose </p>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </section>
+    </main>
+    <footer></footer>
+</body>
+
+</html>
