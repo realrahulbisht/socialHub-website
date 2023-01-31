@@ -623,3 +623,39 @@ main {
 .feed-bottom p{
     color: #626262;
 }
+
+@media all and (max-width:1455px) {
+    .calender-container{
+        width: 100%;
+    }
+    .calender{
+        margin-left: 10px;
+    }
+}
+@media all and (max-width:1362px) {
+    .calender-container{
+        width: 100%;
+    }
+    .calender-info p{
+        font-size: 16px;
+    }
+    .calender-info div p{
+        font-size: 12px;
+    }
+    .calender-info div a{
+        font-size: 8px;
+    }
+    .calender{
+        margin: 0 12px 0 0;
+    }
+}
+
+
+@media all and (min-width:100px) and (max-width:1375px){
+    #convo{
+        margin-right: 12px;
+    }
+    #small{
+        font-size: 12px;
+    }
+}
